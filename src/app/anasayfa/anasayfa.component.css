@@ -1,0 +1,75 @@
+
+.overlay{
+  height:100vh;
+  width:100%;
+  background-color:rgba(0, 0, 0, 0.286);
+  z-index:    10;
+  top:        0;
+  left:       0;
+  position:   fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.baslik{
+  font-size: 18px;
+  background-color:black;
+  height: 10vh;
+  display: flex;
+  color:white;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  background-color:brown;
+  padding-top: 50px;
+}
+
+.container :hover{
+  background-color:darkred;
+
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: auto;
+  height: 650px;
+  text-align: center;
+  font-family: arial;
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr 1fr 1fr;
+}
+
+.title {
+  color: white;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover {
+    background-color: darkslateblue;
+}

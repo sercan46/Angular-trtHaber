@@ -1,0 +1,42 @@
+<div class="overlay" *ngIf="loading | async">
+  <div class="center">
+    <mat-progress-spinner diameter="50" mode="indeterminate" color="accent">
+    </mat-progress-spinner>
+  </div>
+</div>
+<div class="baslik">
+      Anasayfa
+</div>
+
+<div class="container">
+  <div *ngFor="let hab of donusenHaber">
+    <div class="card">
+      <div>
+        <img
+          src="{{ hab.haber_resim[0] }}"
+          alt="John"
+          style="width: 400px; height: 250px;"
+        />
+      </div>
+      <div>
+        <h2 style="color:mediumturquoise;">{{ hab.haber_manset[0] }}</h2>
+      </div>
+      <div>
+        <p class="title">{{ hab.haber_aciklama[0] }}</p>
+      </div>
+      <div>
+        <p>{{ hab.haber_tarihi[0] | date: "dd-MM-yyyy HH:MM" }}</p>
+      </div>
+      <div>
+        <p style="font-weight: bold; color: deepskyblue;">
+          {{ hab.haber_kategorisi[0] }}
+        </p>
+      </div>
+      <div>
+          <button class="button" routerLink="/haber-detay/{{ hab.haber_id[0] }}">
+            Devamını Oku...
+          </button>
+      </div>
+    </div>
+  </div>
+</div>

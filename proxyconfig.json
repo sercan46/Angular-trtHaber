@@ -1,0 +1,49 @@
+
+  {
+
+  "/anasayfa":{
+    "target":"https://www.trthaber.com/xml_mobile.php?tur=xml_genel&kategori=&adet=100&selectEx=yorumSay,okunmaadedi,anasayfamanset,kategorimanset",
+    "secure":false,
+    "logLevel": "debug",
+    "changeOrigin":true
+
+  },
+   "/spor":{
+    "target":"https://www.trthaber.com/xml_mobile.php?tur=xml_genel&kategori=spor&adet=27&selectEx=yorumSay,okunmaadedi,anasayfamanset,kategorimanset",
+    "secure":false,
+    "logLevel": "debug",
+    "changeOrigin":true
+
+  },
+  "/ekonomi":{
+    "target":"https://www.trthaber.com/xml_mobile.php?tur=xml_genel&kategori=ekonomi&adet=27&selectEx=yorumSay,okunmaadedi,anasayfamanset,kategorimanset",
+    "secure":false,
+    "logLevel": "debug",
+    "changeOrigin":true
+
+  },
+  "/saglik":{
+    "target":"https://www.trthaber.com/xml_mobile.php?tur=xml_genel&kategori=saglik&adet=27&selectEx=yorumSay,okunmaadedi,anasayfamanset,kategorimanset",
+    "secure":false,
+    "logLevel": "debug",
+    "changeOrigin":true
+
+  },
+  "/egitim":{
+    "target":"https://www.trthaber.com/xml_mobile.php?tur=xml_genel&kategori=egitim&adet=27&selectEx=yorumSay,okunmaadedi,anasayfamanset,kategorimanset",
+    "secure":false,
+    "logLevel": "debug",
+    "changeOrigin":true
+
+  },
+  "/kultur-sanat":{
+    "target":"https://www.trthaber.com/xml_mobile.php?tur=xml_genel&kategori=kultur-sanat&adet=27&selectEx=yorumSay,okunmaadedi,anasayfamanset,kategorimanset",
+    "secure":false,
+    "logLevel": "debug",
+    "changeOrigin":true
+
+  }
+
+
+}
+
