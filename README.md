@@ -1,29 +1,10 @@
-# Trthaber
+# Trt Haber
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.24.
+My project developed using TRT Haber APIs. In my project, I used real-time XML data by converting it to JSON. News categories (sports, economy, art
+ ...) by creating a separate module and developed it according to the lazy loading loading logic.
+ 
+## To start the project
 
-## Proje Tanıtımı
-Angular kullanılarak TRT haberin XML apisini kullanarak geliştirilmiş bir projedir. XML datayı JSON'a çevirip kategorilere (Spor, Ekonomi, Sağlık ...) ayrılmış projedir.
-## Development server
+npm install
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+ng serve --open
